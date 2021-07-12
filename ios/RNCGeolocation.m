@@ -177,7 +177,7 @@ RCT_EXPORT_MODULE()
     _locationManager.delegate = self;
   }
 
-  _locationManager.pausesLocationUpdatesAutomatically = false
+  _locationManager.pausesLocationUpdatesAutomatically = false;
   _locationManager.distanceFilter  = distanceFilter;
   _locationManager.desiredAccuracy = desiredAccuracy;
   _usingSignificantChanges = useSignificantChanges;
